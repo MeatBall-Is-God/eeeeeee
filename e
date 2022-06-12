@@ -1,5 +1,22 @@
-return {
-"8CD10256-563F-416B-BCE4-A00AC4BB62C9",
-"6942D3CC-4F60-4B99-BD37-77FC488E60B3",
-"E8B078FF-AC4F-4F69-9F59-632A5E2E7D44"
-}
+game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "e.";
+		Text = "Checking Whitelist..";
+	})
+	
+	wait (2)
+	
+	 if game.Players.LocalPlayer.Name == "t_zil" then
+            game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "whitelisted";
+		Text = "enjoy";
+	})
+	else game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "not whitelisted";
+		Text = "dm me and beg for one";
+	})
+	 end
+ wait(2)
+ 
+if game.Players.LocalPlayer.Name == "t_zil" then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomHaxer0/idktbh/main/somethingbymyfriendidk"))()
+ end
